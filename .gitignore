@@ -1,0 +1,12 @@
+__pycache__/
+*.egg-info/
+.venv/
+out/
+gaussians/
+*.pt
+*.ply
+.ruff_cache/
+.pytest_cache/
+dist/
+uv.lock
+artifacts/

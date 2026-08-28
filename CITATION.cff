@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "splatmorph: seamlessly-looping 3D Gaussian morphs via one transport functional"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "J"
+    given-names: "Ameer"
+year: 2026
+url: "https://github.com/AmeerJ97/splatmorph"
+abstract: >
+  Two images in, one seamlessly-looping 3D Gaussian morph out. A single
+  optimal-transport functional decides set membership, morph ordering,
+  splat correspondence, and per-splat trajectory; verification gates
+  (loop exactness, endpoint purity, boundary quietness) are checked on
+  every render. Built on Apple's SHARP monocular Gaussian model
+  (research license) and 3D Gaussian Splatting.
