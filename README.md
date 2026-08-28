@@ -25,6 +25,11 @@ Related transport costs are used at several stages of the pipeline:
 | pairing | compute splat correspondence | banded entropic Sinkhorn over position, elevation, appearance, and neighborhood context |
 | trajectory | interpolate splat positions | displacement interpolation and Bézier overshoot scaled by correspondence strain |
 
+![Conceptual animation of Gaussian transport between two scenes](assets/transport-explainer.gif)
+
+*Conceptual Manim animation of the correspondence and return path. The
+ellipses are illustrative; this is not a frame from SHARP or `gsplat`.*
+
 > [!IMPORTANT]
 > `splatmorph` is an experimental research tool, not an Apple project and not a
 > reimplementation of SHARP. The repository includes an unmodified, pinned
